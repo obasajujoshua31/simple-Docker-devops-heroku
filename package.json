@@ -1,0 +1,19 @@
+{
+  "name": "simple-Docker-devops-heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/obasajujoshua31/simple-Docker-devops-heroku.git",
+  "author": "obasajujoshua31 <obasajujoshua31@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "sequelize": "^5.10.1",
+    "sqlite": "^3.0.3",
+    "uuid": "^3.3.2"
+  }
+}
